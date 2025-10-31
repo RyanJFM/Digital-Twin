@@ -30,9 +30,9 @@ All sensor data is transmitted via Wi-Fi UDP to a server for real-time monitorin
 
 ---
 
-## Wiring Summary
+## Wiring for each input IoT device
 
-### AD8232 ECG Sensor
+### AD8232 ECG Sensor - Heart ECG
 | AD8232 Pin | ESP32 Pin | Description |
 |-------------|------------|-------------|
 | LO+ | GPIO 25 | Lead-off detect (+) |
@@ -41,17 +41,16 @@ All sensor data is transmitted via Wi-Fi UDP to a server for real-time monitorin
 | 3.3V | 3.3V | Power |
 | GND | GND | Common ground |
 
-### DS18B20 Sensors (x3)
+### DS18B20 Sensors (x3) - Temperature sensors
 | DS18B20 Pin | ESP32 Pin | Description |
 |--------------|------------|-------------|
 | VDD | 3.3V | Power |
 | DQ | GPIO 4 | One-Wire bus |
 | GND | GND | Common ground |
 
-Note: Add a 4.7 kΩ pull-up resistor between DQ and 3.3 V.  
 All three DS18B20 sensors share the same data line.
 
-### MAX30105 Heart Rate Sensor
+### MAX30105 Heart Rate Sensor _ Beats per minute of the Heart
 | MAX30105 Pin | ESP32 Pin | Description |
 |---------------|------------|-------------|
 | VIN | 3.3V | Power |
@@ -71,13 +70,6 @@ All three DS18B20 sensors share the same data line.
 
 ---
 
-## Software Overview
-
-### Main Functions
-- Reads temperature, ECG, and heart rate in defined intervals  
-- Formats data into JSON using ArduinoJson  
-- Sends packets via UDP to the specified server IP  
-- Includes a periodic heartbeat message for connection status
 
 ### Data Packet Example
 ```json
