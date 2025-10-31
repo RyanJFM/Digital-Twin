@@ -1,4 +1,4 @@
-# Multi-Sensor Health Monitor (ESP32 – UDP Real-Time System)
+# Multi Sensor Health Monitor - Wiring 
 
 This project was developed for EngEx 2025, the Engineering Exhibition organized by the Faculty of Engineering, University of Peradeniya, in celebration of its Diamond Jubilee.
 
