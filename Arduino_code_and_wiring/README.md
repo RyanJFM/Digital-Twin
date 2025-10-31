@@ -2,8 +2,6 @@
 
 This project was developed for EngEx 2025, the Engineering Exhibition organized by the Faculty of Engineering, University of Peradeniya, in celebration of its Diamond Jubilee.
 
-It demonstrates the concept of a Digital Twin by streaming real-time physiological data from multiple biomedical sensors to a remote web server and visualizing them in Unity.
-
 ---
 
 ## Overview
