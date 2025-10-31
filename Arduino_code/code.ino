@@ -10,13 +10,13 @@
 #include "MAX30105.h"
 #include "heartRate.h"  
 
-// WiFi Configuration
-const char* ssid = "Galaxy A013813";
-const char* password = "sanjuna123";
+// WiFi Configuration // ADD YOUR DETAILS HERE
+const char* ssid = "Your_SSID_HERE";
+const char* password = "NETWORK_PASSWORD";
 
 // UDP Configuration
 WiFiUDP udp;
-const char* udpAddress = "192.168.60.249";  // Change to your server IP
+const char* udpAddress = "SERVER_IP";  // Change to your server IP
 const int udpPort = 8888;
 const char* deviceId = "ESP32_HEALTH_001";
 
