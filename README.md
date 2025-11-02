@@ -74,7 +74,7 @@ Each folder includes its own README for setup and usage details.
 - Scripts in this folder control animation mapping, vitals display, and synchronization.
 
 ### 4. Project Workflow
-# 1. Start the Node.js server
+#### 1. Start the Node.js server
 ```
 npm install
 node server.js
