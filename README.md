@@ -79,9 +79,9 @@ Each folder includes its own README for setup and usage details.
 npm install
 node server.js
 ```
-# 2. Upload the firmware to your ESP32 and ensure it connects to the same Wi-Fi network.
-# 3. Launch the Unity scene with the scripts from /twinMesh.
-# 4. Observe live streaming of sensor data and humanoid animation in real time.
+#### 2. Upload the firmware to your ESP32 and ensure it connects to the same Wi-Fi network.
+#### 3. Launch the Unity scene with the scripts from /twinMesh.
+#### 4. Observe live streaming of sensor data and humanoid animation in real time.
 
 if you have any concerns on twinMesh/ please email me
 ryanjffernando@gmail.com
