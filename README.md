@@ -66,6 +66,22 @@ Each folder includes its own README for setup and usage details.
   npm install
   node server.js
 
+### 3. Unity Visualization (twinMesh)
+- Located in the /twinMesh folder.
+- Handles 3D visualization using a humanoid mesh rigged with proper joints.
+- The Unity scene receives live UDP data and updates the model in real time.
+- If available, the Kinect Unity SDK wrapper can be used for live body motion capture.
+- Scripts in this folder control animation mapping, vitals display, and synchronization.
 
+### 4. Project Workflow
+# 1. Start the Node.js server
+```
+npm install
+node server.js
+```
+# 2. Upload the firmware to your ESP32 and ensure it connects to the same Wi-Fi network.
+# 3. Launch the Unity scene with the scripts from /twinMesh.
+# 4. Observe live streaming of sensor data and humanoid animation in real time.
 
-
+if you have any concerns on twinMesh/ please email me
+ryanjffernando@gmail.com
